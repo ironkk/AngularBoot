@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="cargols.js" type="text/javascript"></script>
+        <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <style>
+            .row>div{
+                border:1px solid black; 
+                text-align: center;
+            }
+            
+            
+        </style>
+
+    </head>
+    <body onload="inici();">
+
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div id="logo" class="hidden-xs col-sm-4 col-md-4">LOGO</div>
+                <div class="col-xs-12 col-sm-8 col-md-8">CARRERAS DE CARACOLES</div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row" id="ranking">
+                        <div  class="col-xs-12 col-sm-12 col-md-12">RANKING</div>
+                        
+                    </div>
+                     <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">NUEVA CARRERA</div>
+                        <div class="col-xs-9 col-sm-9 col-md-8" id="sprint">SPRINT 2</div>
+                        <div onclick="run();" class="col-xs-3 col-sm-3 col-md-4">¡RUN!</div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-6">1r</div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">2r</div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">3r</div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">4r</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-12">BORRA UN SPRINT</div>
+                        <div class="col-xs-12 col-sm-12 col-md-12">TABLE SPRINT 1</div>
+                        <div class="col-xs-12 col-sm-12 col-md-12">TABLE SPRINT 2</div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12">FINALIZA CARRERA</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </body>
+</html>

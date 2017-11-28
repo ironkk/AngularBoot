@@ -1,0 +1,38 @@
+html,body{
+    width:100%;
+    height:100%;
+}
+.exercici01{
+  width:30%;
+    height:30%;  
+}
+
+.combinacion>div{
+    border:2px solid black;
+    border-radius: 6em;
+    width: 50px;
+}
+.blue{
+    background-color: blue;
+}
+div{
+    display:inline-block;
+    vertical-align: top;
+    width: 70%;
+    height: 40%;
+}
+
+.valor1{
+    background-color: blue; 
+}
+.valor2{
+     background-color: white;
+}.valor3{
+     background-color: black;
+}.valor4{
+     background-color: yellow;
+}
+
+
+
+
